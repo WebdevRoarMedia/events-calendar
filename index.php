@@ -1,8 +1,6 @@
 <?php
 // Start of the index.php file
 
-// Include necessary WordPress functions
-get_header(); // This function includes the header template part (optional, depending on your theme's structure).
 
 // Define the shortcode function for the events section
 function events_section_code() {
@@ -88,5 +86,4 @@ add_shortcode('events-section', 'events_section_code');
 // You can optionally call the shortcode directly if this file serves as a template
 echo do_shortcode('[events-section]');
 
-// Include the footer template part (optional, depending on your theme's structure).
-get_footer();
+
