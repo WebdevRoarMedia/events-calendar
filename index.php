@@ -1,6 +1,6 @@
 <?php
 // Start of the index.php file
-
+//Silence is gold
 
 // Define the shortcode function for the events section
 function events_section_code() {
